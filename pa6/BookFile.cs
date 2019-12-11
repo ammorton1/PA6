@@ -25,7 +25,7 @@ namespace pa6
                 httpClient.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36");
                 var response = httpClient.GetStringAsync(new Uri(url)).Result;
                 var releases = JArray.Parse(response);
-                List<Book> myBooks = releases.ToObject<List<Book>>();
+                List<Book> myBooks = releases.ToObject<List<Book>>();//
                 return myBooks;
             }
         }
