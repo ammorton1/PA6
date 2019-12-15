@@ -23,6 +23,7 @@ namespace pa6
         private void frmMain_Load(object sender, EventArgs e)
         {
             LoadList();
+            picBox.SizeMode = PictureBoxSizeMode.StretchImage;
         }
         private void LoadList()
         {
@@ -47,11 +48,20 @@ namespace pa6
         private void LstBooks_SelectedIndexChanged(object sender, EventArgs e)
         {
             Book myBook = (Book)lstBooks.SelectedItem;
-            titlebox.Text = myBook.title;
-            authorbox.Text = myBook.author;
-            genrebox.Text = myBook.genre;
-            copiesbox.Text = myBook.copies.ToString();
-            lengthbox.Text = myBook.length.ToString();
+            titleboxData.Text = myBook.title;
+            authorboxData.Text = myBook.author;
+            genreboxData.Text = myBook.genre;
+            copiesboxData.Text = myBook.copies.ToString();
+            lengthboxData.Text = myBook.length.ToString();
+
+            try
+            {
+                picBox.Load(myBook.cover);
+            }
+            catch
+            {
+
+            }
         }
     }
 }

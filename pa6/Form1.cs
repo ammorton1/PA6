@@ -21,7 +21,7 @@ namespace pa6
         {
             this.Close();
         }
-
+98
         private void Button1_Click(object sender, EventArgs e)
         {
             this.Hide();

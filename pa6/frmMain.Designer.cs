@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.Title = new System.Windows.Forms.Label();
-            this.titlebox = new System.Windows.Forms.TextBox();
+            this.titleboxData = new System.Windows.Forms.TextBox();
             this.Author = new System.Windows.Forms.Label();
-            this.authorbox = new System.Windows.Forms.TextBox();
-            this.genrebox = new System.Windows.Forms.TextBox();
+            this.authorboxData = new System.Windows.Forms.TextBox();
+            this.genreboxData = new System.Windows.Forms.TextBox();
             this.Genre = new System.Windows.Forms.Label();
             this.Availability = new System.Windows.Forms.Label();
-            this.copiesbox = new System.Windows.Forms.TextBox();
+            this.copiesboxData = new System.Windows.Forms.TextBox();
             this.ISBN = new System.Windows.Forms.Label();
-            this.isbnbox = new System.Windows.Forms.TextBox();
+            this.isbnboxData = new System.Windows.Forms.TextBox();
             this.Length = new System.Windows.Forms.Label();
-            this.lengthbox = new System.Windows.Forms.TextBox();
+            this.lengthboxData = new System.Windows.Forms.TextBox();
             this.lstBooks = new System.Windows.Forms.ListBox();
             this.picBox = new System.Windows.Forms.PictureBox();
             this.bRent = new System.Windows.Forms.Button();
@@ -62,13 +62,13 @@
             this.Title.TabIndex = 0;
             this.Title.Text = "Title:";
             // 
-            // titlebox
+            // titleboxData
             // 
-            this.titlebox.Location = new System.Drawing.Point(485, 62);
-            this.titlebox.Margin = new System.Windows.Forms.Padding(5);
-            this.titlebox.Name = "titlebox";
-            this.titlebox.Size = new System.Drawing.Size(319, 52);
-            this.titlebox.TabIndex = 1;
+            this.titleboxData.Location = new System.Drawing.Point(485, 62);
+            this.titleboxData.Margin = new System.Windows.Forms.Padding(5);
+            this.titleboxData.Name = "titleboxData";
+            this.titleboxData.Size = new System.Drawing.Size(319, 52);
+            this.titleboxData.TabIndex = 1;
             // 
             // Author
             // 
@@ -81,21 +81,21 @@
             this.Author.Text = "Author:";
             this.Author.Click += new System.EventHandler(this.Author_Click);
             // 
-            // authorbox
+            // authorboxData
             // 
-            this.authorbox.Location = new System.Drawing.Point(485, 184);
-            this.authorbox.Margin = new System.Windows.Forms.Padding(5);
-            this.authorbox.Name = "authorbox";
-            this.authorbox.Size = new System.Drawing.Size(319, 52);
-            this.authorbox.TabIndex = 3;
+            this.authorboxData.Location = new System.Drawing.Point(485, 184);
+            this.authorboxData.Margin = new System.Windows.Forms.Padding(5);
+            this.authorboxData.Name = "authorboxData";
+            this.authorboxData.Size = new System.Drawing.Size(319, 52);
+            this.authorboxData.TabIndex = 3;
             // 
-            // genrebox
+            // genreboxData
             // 
-            this.genrebox.Location = new System.Drawing.Point(485, 293);
-            this.genrebox.Margin = new System.Windows.Forms.Padding(5);
-            this.genrebox.Name = "genrebox";
-            this.genrebox.Size = new System.Drawing.Size(319, 52);
-            this.genrebox.TabIndex = 4;
+            this.genreboxData.Location = new System.Drawing.Point(485, 293);
+            this.genreboxData.Margin = new System.Windows.Forms.Padding(5);
+            this.genreboxData.Name = "genreboxData";
+            this.genreboxData.Size = new System.Drawing.Size(319, 52);
+            this.genreboxData.TabIndex = 4;
             // 
             // Genre
             // 
@@ -119,13 +119,13 @@
             this.Availability.TabIndex = 6;
             this.Availability.Text = "Copies:";
             // 
-            // copiesbox
+            // copiesboxData
             // 
-            this.copiesbox.Location = new System.Drawing.Point(485, 412);
-            this.copiesbox.Margin = new System.Windows.Forms.Padding(5);
-            this.copiesbox.Name = "copiesbox";
-            this.copiesbox.Size = new System.Drawing.Size(319, 52);
-            this.copiesbox.TabIndex = 7;
+            this.copiesboxData.Location = new System.Drawing.Point(485, 412);
+            this.copiesboxData.Margin = new System.Windows.Forms.Padding(5);
+            this.copiesboxData.Name = "copiesboxData";
+            this.copiesboxData.Size = new System.Drawing.Size(319, 52);
+            this.copiesboxData.TabIndex = 7;
             // 
             // ISBN
             // 
@@ -138,14 +138,14 @@
             this.ISBN.TabIndex = 8;
             this.ISBN.Text = "ISBN:";
             // 
-            // isbnbox
+            // isbnboxData
             // 
-            this.isbnbox.Location = new System.Drawing.Point(485, 519);
-            this.isbnbox.Margin = new System.Windows.Forms.Padding(5);
-            this.isbnbox.Name = "isbnbox";
-            this.isbnbox.Size = new System.Drawing.Size(319, 52);
-            this.isbnbox.TabIndex = 9;
-            this.isbnbox.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            this.isbnboxData.Location = new System.Drawing.Point(485, 519);
+            this.isbnboxData.Margin = new System.Windows.Forms.Padding(5);
+            this.isbnboxData.Name = "isbnboxData";
+            this.isbnboxData.Size = new System.Drawing.Size(319, 52);
+            this.isbnboxData.TabIndex = 9;
+            this.isbnboxData.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // Length
             // 
@@ -158,13 +158,13 @@
             this.Length.TabIndex = 10;
             this.Length.Text = "Length:";
             // 
-            // lengthbox
+            // lengthboxData
             // 
-            this.lengthbox.Location = new System.Drawing.Point(485, 633);
-            this.lengthbox.Margin = new System.Windows.Forms.Padding(5);
-            this.lengthbox.Name = "lengthbox";
-            this.lengthbox.Size = new System.Drawing.Size(319, 52);
-            this.lengthbox.TabIndex = 11;
+            this.lengthboxData.Location = new System.Drawing.Point(485, 633);
+            this.lengthboxData.Margin = new System.Windows.Forms.Padding(5);
+            this.lengthboxData.Name = "lengthboxData";
+            this.lengthboxData.Size = new System.Drawing.Size(319, 52);
+            this.lengthboxData.TabIndex = 11;
             // 
             // lstBooks
             // 
@@ -252,17 +252,17 @@
             this.Controls.Add(this.bRent);
             this.Controls.Add(this.picBox);
             this.Controls.Add(this.lstBooks);
-            this.Controls.Add(this.lengthbox);
+            this.Controls.Add(this.lengthboxData);
             this.Controls.Add(this.Length);
-            this.Controls.Add(this.isbnbox);
+            this.Controls.Add(this.isbnboxData);
             this.Controls.Add(this.ISBN);
-            this.Controls.Add(this.copiesbox);
+            this.Controls.Add(this.copiesboxData);
             this.Controls.Add(this.Availability);
             this.Controls.Add(this.Genre);
-            this.Controls.Add(this.genrebox);
-            this.Controls.Add(this.authorbox);
+            this.Controls.Add(this.genreboxData);
+            this.Controls.Add(this.authorboxData);
             this.Controls.Add(this.Author);
-            this.Controls.Add(this.titlebox);
+            this.Controls.Add(this.titleboxData);
             this.Controls.Add(this.Title);
             this.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5);
@@ -278,17 +278,17 @@
         #endregion
 
         private System.Windows.Forms.Label Title;
-        private System.Windows.Forms.TextBox titlebox;
+        private System.Windows.Forms.TextBox titleboxData;
         private System.Windows.Forms.Label Author;
-        private System.Windows.Forms.TextBox authorbox;
-        private System.Windows.Forms.TextBox genrebox;
+        private System.Windows.Forms.TextBox authorboxData;
+        private System.Windows.Forms.TextBox genreboxData;
         private System.Windows.Forms.Label Genre;
         private System.Windows.Forms.Label Availability;
-        private System.Windows.Forms.TextBox copiesbox;
+        private System.Windows.Forms.TextBox copiesboxData;
         private System.Windows.Forms.Label ISBN;
-        private System.Windows.Forms.TextBox isbnbox;
+        private System.Windows.Forms.TextBox isbnboxData;
         private System.Windows.Forms.Label Length;
-        private System.Windows.Forms.TextBox lengthbox;
+        private System.Windows.Forms.TextBox lengthboxData;
         private System.Windows.Forms.ListBox lstBooks;
         private System.Windows.Forms.PictureBox picBox;
         private System.Windows.Forms.Button bRent;
