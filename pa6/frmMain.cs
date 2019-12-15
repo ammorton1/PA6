@@ -46,7 +46,12 @@ namespace pa6
 
         private void LstBooks_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+            Book myBook = (Book)lstBooks.SelectedItem;
+            titlebox.Text = myBook.title;
+            authorbox.Text = myBook.author;
+            genrebox.Text = myBook.genre;
+            copiesbox.Text = myBook.copies.ToString();
+            lengthbox.Text = myBook.length.ToString();
         }
     }
 }

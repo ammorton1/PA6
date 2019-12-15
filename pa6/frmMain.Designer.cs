@@ -35,7 +35,7 @@
             this.genrebox = new System.Windows.Forms.TextBox();
             this.Genre = new System.Windows.Forms.Label();
             this.Availability = new System.Windows.Forms.Label();
-            this.availabilitybox = new System.Windows.Forms.TextBox();
+            this.copiesbox = new System.Windows.Forms.TextBox();
             this.ISBN = new System.Windows.Forms.Label();
             this.isbnbox = new System.Windows.Forms.TextBox();
             this.Length = new System.Windows.Forms.Label();
@@ -115,17 +115,17 @@
             this.Availability.Location = new System.Drawing.Point(477, 360);
             this.Availability.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.Availability.Name = "Availability";
-            this.Availability.Size = new System.Drawing.Size(197, 45);
+            this.Availability.Size = new System.Drawing.Size(126, 45);
             this.Availability.TabIndex = 6;
-            this.Availability.Text = "Availability:";
+            this.Availability.Text = "Copies:";
             // 
-            // availabilitybox
+            // copiesbox
             // 
-            this.availabilitybox.Location = new System.Drawing.Point(485, 412);
-            this.availabilitybox.Margin = new System.Windows.Forms.Padding(5);
-            this.availabilitybox.Name = "availabilitybox";
-            this.availabilitybox.Size = new System.Drawing.Size(319, 52);
-            this.availabilitybox.TabIndex = 7;
+            this.copiesbox.Location = new System.Drawing.Point(485, 412);
+            this.copiesbox.Margin = new System.Windows.Forms.Padding(5);
+            this.copiesbox.Name = "copiesbox";
+            this.copiesbox.Size = new System.Drawing.Size(319, 52);
+            this.copiesbox.TabIndex = 7;
             // 
             // ISBN
             // 
@@ -256,7 +256,7 @@
             this.Controls.Add(this.Length);
             this.Controls.Add(this.isbnbox);
             this.Controls.Add(this.ISBN);
-            this.Controls.Add(this.availabilitybox);
+            this.Controls.Add(this.copiesbox);
             this.Controls.Add(this.Availability);
             this.Controls.Add(this.Genre);
             this.Controls.Add(this.genrebox);
@@ -284,7 +284,7 @@
         private System.Windows.Forms.TextBox genrebox;
         private System.Windows.Forms.Label Genre;
         private System.Windows.Forms.Label Availability;
-        private System.Windows.Forms.TextBox availabilitybox;
+        private System.Windows.Forms.TextBox copiesbox;
         private System.Windows.Forms.Label ISBN;
         private System.Windows.Forms.TextBox isbnbox;
         private System.Windows.Forms.Label Length;
